@@ -1,9 +1,10 @@
 default:
   context:
-    class:  'InheritedFeatureContext'
+    class:  'FeatureContext'
   extensions:
     Behat\MinkExtension\Extension:
-      base_url:  'http://en.wikipedia.org/'
+#      base_url:  'http://en.wikipedia.org/'
+      base_url:  'https://cat9sltest.herokuapp.com/api/'
       goutte:    ~
       selenium2: ~
 

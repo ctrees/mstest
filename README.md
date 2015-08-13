@@ -14,6 +14,9 @@ behat based testing for the complete idiot
     - bin/behat
 - Should open Chrome browser and test wikipedia.org
 
+## Notes
+- bin/behat -dl (list all the Domain Language dl context expressions)
+
 ## From Scratch
 - Create this repo https://github.com/ctrees/mstest
 - git clone https://github.com/ctrees/mstest.git
