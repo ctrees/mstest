@@ -14,6 +14,19 @@ behat based testing for the complete idiot
     - bin/behat
 - Should open Chrome browser and test wikipedia.org
 
+## WIP
+- HACK based on http://keithloy.me/testing-rest-api-with-behat/
+- restAPI.feature
+    - fetches from http://cat9sltest.herokuapp.com:80/api/categories
+	- verifies JSON response
+	- verifies HTTP response code (200)
+	- verifies some of the JSON object types (FAIL)
+- features/bootstrap/RestContext.php
+	- Hacked lines 73 - 79 to get response back
+	- used http://cat9sltest.herokuapp.com/#/app login to get Token via DevTools network
+	- put VuZPrBl00srvxBoEtg0qZGaDptfhpwMc0MBgJg5bKjidl6mvx6OigEOGfzMIjnBG into Token Set
+	- used http://cat9sltest.herokuapp.com/explorer/#!/categories/find to get Resquest URL
+	
 ## Notes
 - bin/behat -dl (list all the Domain Language dl context expressions)
 
