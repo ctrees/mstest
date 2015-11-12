@@ -1,5 +1,6 @@
 # mstest
-behat based testing for the complete idiot
+behat based testing for the complete idiot 
+https://github.com/ctrees/mstest
 
 ## Install and run
 - git clone https://github.com/ctrees/mstest.git
@@ -26,7 +27,21 @@ behat based testing for the complete idiot
 	- used http://cat9sltest.herokuapp.com/#/app login to get Token via DevTools network
 	- put VuZPrBl00srvxBoEtg0qZGaDptfhpwMc0MBgJg5bKjidl6mvx6OigEOGfzMIjnBG into Token Set
 	- used http://cat9sltest.herokuapp.com/explorer/#!/categories/find to get Resquest URL
-	
+
+## Web research tabs
+- https://github.com/Shashikant86/RESTful-Behat/blob/master/features/bootstrap/FeatureContext.php
+- http://shashikantjagtap.net/restful-api-testing-behat-guzzle/
+- https://github.com/rezzza/rest-api-behat-extension
+- http://erikaybar.name/behat-for-testing-laravel-restful-json-api/
+- http://erikaybar.name/building-and-testing-a-restful-api-using-behat-phpunit-and-laravel-part-1/
+- https://laracasts.com/discuss/channels/testing/using-behat-to-test-restful-apis
+- http://keithloy.me/testing-rest-api-with-behat/
+- http://elnur.pro/behat-and-mink-are-not-meant-to-be-together/
+- http://docs.behat.org/en/v2.5/cookbook/intercepting_the_redirections.html
+- http://www.vemployee.com/blog/20-scenarios-for-testing-login-pages-and-search-functionality-on-websites/
+- https://developers.google.com/oauthplayground/
+- https://github.com/philsturgeon/build-apis-you-wont-hate/blob/master/chapter8/app/tests/behat/features/bootstrap/FeatureContext.php
+
 ## Notes
 - bin/behat -dl (list all the Domain Language dl context expressions)
 
